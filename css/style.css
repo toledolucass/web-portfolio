@@ -129,6 +129,18 @@ img{
     font-family: var(--fonte-sec);
 }
 
+
+@media(min-width: 1201px){
+    .small-image {
+        display: block;
+    }
+    
+    .large-image {
+        display: none;
+    }
+}
+
+
 @media(min-width: 768px) and (max-width: 1200px){
 
     .logo{
@@ -150,7 +162,7 @@ img{
     }
 
     .main_secao{
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 100px;
         padding: 7% 15%;
     }
@@ -159,8 +171,13 @@ img{
         width: auto;
     }
 
-    .prog{
-        width: 50%;
+    .large-image {
+        display: block;
+        width: 100%;
+    }
+    
+    .small-image {
+        display: none;
     }
 
     .rodape p{
@@ -189,7 +206,7 @@ img{
 
     .main_secao{
         flex-direction: column;
-        gap: 100px;
+        gap: 120px;
         padding: 20% 15%;
     }
 
@@ -197,8 +214,13 @@ img{
         width: auto;
     }
 
-    .prog{
-        width: 60%;
+    .large-image {
+        display: block;
+        width: 100%;
+    }
+    
+    .small-image {
+        display: none;
     }
 
     .rodape p{
@@ -228,7 +250,7 @@ img{
 
     .main_secao{
         flex-direction: column;
-        gap: 100px;
+        gap: 80px;
         padding: 20% 15%;
     }
 
@@ -259,8 +281,13 @@ img{
         font-size: 0.7rem;
     }
 
-    .prog{
-        width: 60%;
+    .large-image {
+        display: block;
+        width: 100%;
+    }
+    
+    .small-image {
+        display: none;
     }
 
     .rodape p{
@@ -288,7 +315,7 @@ img{
 
     .main_secao{
         flex-direction: column;
-        gap: 100px;
+        gap: 50px;
         padding: 20% 15%;
     }
 
@@ -319,8 +346,13 @@ img{
         font-size: 0.7rem;
     }
 
-    .prog{
-        width: 60%;
+    .large-image {
+        display: block;
+        width: 100%;
+    }
+    
+    .small-image {
+        display: none;
     }
 
     .rodape p{
