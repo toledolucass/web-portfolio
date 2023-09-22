@@ -159,6 +159,10 @@ img{
         width: auto;
     }
 
+    .prog{
+        width: 50%;
+    }
+
     .rodape p{
         font-size: 0.9rem;
     }
@@ -191,6 +195,10 @@ img{
 
     .secao{
         width: auto;
+    }
+
+    .prog{
+        width: 60%;
     }
 
     .rodape p{
@@ -251,6 +259,10 @@ img{
         font-size: 0.7rem;
     }
 
+    .prog{
+        width: 60%;
+    }
+
     .rodape p{
         font-size: 0.7rem;
     }
@@ -305,6 +317,10 @@ img{
     .links__btn{
         width: 50%;
         font-size: 0.7rem;
+    }
+
+    .prog{
+        width: 60%;
     }
 
     .rodape p{
